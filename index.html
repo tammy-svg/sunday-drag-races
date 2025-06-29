@@ -105,7 +105,7 @@
                         </div>
                         <div>
                             <label for="nickname" class="form-label block mb-2">Street Name / Alias <span>// Your Legend</span></label>
-                            <input type="text" id="nickname" name="nickname" class="form-input w-full p-3 rounded-lg" placeholder="e.g., 'Shadow', 'Viper', 'Ghost'">
+                            <input type="text" id="nickname" name="nickname" class="form-input w-full p-3 rounded-lg" placeholder="e.g., 'Shadow', 'Viper', 'Ghost'" required>
                         </div>
                     </div>
                 </fieldset>
@@ -122,7 +122,7 @@
                                 <span class="text-3xl">👤</span>
                                 <p class="text-gray-400 text-sm mt-2">Click to upload</p>
                             </label>
-                            <input id="headshot-upload" type="file" class="hidden" accept="image/png, image/jpeg" onchange="updateFileName(this.id)">
+                            <input id="headshot-upload" type="file" class="hidden" accept="image/png, image/jpeg" onchange="updateFileName(this.id)" required>
                             <p id="headshot-upload-status" class="file-upload-status">File selected!</p>
                         </div>
                         <!-- NIN Upload -->
@@ -132,7 +132,7 @@
                                 <span class="text-3xl">💳</span>
                                 <p class="text-gray-400 text-sm mt-2">Click to upload</p>
                             </label>
-                            <input id="nin-upload" type="file" class="hidden" accept="image/png, image/jpeg" onchange="updateFileName(this.id)">
+                            <input id="nin-upload" type="file" class="hidden" accept="image/png, image/jpeg" onchange="updateFileName(this.id)" required>
                             <p id="nin-upload-status" class="file-upload-status">File selected!</p>
                         </div>
                         <!-- License Upload -->
@@ -142,7 +142,7 @@
                                 <span class="text-3xl">📜</span>
                                 <p class="text-gray-400 text-sm mt-2">Click to upload</p>
                             </label>
-                            <input id="license-upload" type="file" class="hidden" accept="image/png, image/jpeg" onchange="updateFileName(this.id)">
+                            <input id="license-upload" type="file" class="hidden" accept="image/png, image/jpeg" onchange="updateFileName(this.id)" required>
                             <p id="license-upload-status" class="file-upload-status">File selected!</p>
                         </div>
                     </div>
@@ -162,7 +162,7 @@
                         </div>
                         <div>
                             <label for="whatsapp" class="form-label block mb-2">WhatsApp <span>// For Race Comms</span></label>
-                            <input type="tel" id="whatsapp" name="whatsapp" class="form-input w-full p-3 rounded-lg" placeholder="Same as phone?">
+                            <input type="tel" id="whatsapp" name="whatsapp" class="form-input w-full p-3 rounded-lg" placeholder="Same as phone?" required>
                         </div>
                         <div class="md:col-span-2 lg:col-span-2">
                              <label for="email" class="form-label block mb-2">Email Address <span>// For Victory Mails</span></label>
@@ -170,7 +170,7 @@
                         </div>
                          <div>
                             <label for="instagram" class="form-label block mb-2">Instagram <span>// Tag Your Glory</span></label>
-                            <input type="text" id="instagram" name="instagram" class="form-input w-full p-3 rounded-lg" placeholder="@yourhandle">
+                            <input type="text" id="instagram" name="instagram" class="form-input w-full p-3 rounded-lg" placeholder="@yourhandle" required>
                         </div>
                     </div>
                 </fieldset>
